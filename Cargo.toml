@@ -1,0 +1,12 @@
+[package]
+
+name = "rfront"
+version = "0.0.1"
+authors = ["Peter Green <ptgreen@eml.cc>"]
+
+[dependencies]
+racc = "0.0.1"
+
+[dependencies.rustlex]
+git = "https://github.com/LeoTestard/rustlex"
+
