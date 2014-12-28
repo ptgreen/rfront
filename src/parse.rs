@@ -5,10 +5,10 @@
 
 use racc::runtime::{ParserTables, ParserState};
 
-use syntax::parse::token;
-use syntax::codemap::{spanned, mk_sp, BytePos};
 use syntax::ast;
 use syntax::ptr::P;
+use syntax::parse::token;
+use syntax::codemap::{spanned, mk_sp, BytePos};
 use std;
 
 #[deriving(Show)]
