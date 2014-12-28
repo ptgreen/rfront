@@ -1,6 +1,10 @@
 [package]
 
 name = "rfront"
+description = "An experiment in driving the rustc frontend from rustlex and racc."
+repository = "https://github.com/ptgreen/rfront.git"
+keywords = ["parser", "compiler", "syntax"]
+license = "MIT"
 version = "0.0.1"
 authors = ["Peter Green <ptgreen@eml.cc>"]
 
